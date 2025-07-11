@@ -5,7 +5,7 @@ import Home from "./Components/Home";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/game">
         <Routes>
           <Route index element={<Home />} />
         </Routes>
